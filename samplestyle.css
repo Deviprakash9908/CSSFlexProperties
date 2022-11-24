@@ -1,0 +1,60 @@
+.divs{
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+}
+
+.just-flex{
+    display: flex;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-rev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-row-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-row-rev-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-rev{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-column-wrap{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#div1{
+    background-color: orange;
+}
+
+#div2{
+    background-color: wheat;
+}
+
+#div3{
+    background-color: green;
+}

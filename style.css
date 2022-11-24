@@ -1,0 +1,56 @@
+#container{
+    height: 500px;
+    border: 1px solid black;
+}
+
+.divs{
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+}
+
+#div1{
+    background-color: orange;
+}
+
+#div2{
+    background-color: wheat;
+}
+
+#div3{
+    background-color: green;
+}
+
+#flex-select, #flex-wrap-select{
+    margin: 5px;
+}
+
+.f-wo-dir{
+    display: flex;
+}
+
+.f-row, .f-row-rev{
+    display: flex;
+    flex-direction: row;
+}
+
+.f-col, .f-col-rev{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-row-rev{
+    flex-direction: row-reverse;
+}
+
+.f-col-rev{
+    flex-direction: column-reverse;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-rev{
+    flex-wrap: wrap-reverse;
+}

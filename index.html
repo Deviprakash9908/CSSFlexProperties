@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Flex Properties</title>
+</head>
+<body>
+    <span>Flex</span><select name="flex" id="flex-select" onchange="changeFlex()">
+        <option value="f-nil">None</option>
+        <option value="f-wo-dir">Flex With No direction Applied</option>
+        <option value="f-row">Row</option>
+        <option value="f-row-rev">Row Reverse</option>
+        <option value="f-col">Column</option>
+        <option value="f-col-rev">Column Reverse</option>
+    </select><br>
+    <span>Wrap</span><select name="flex-wrap" id="flex-wrap-select" onchange="changeFlexWrap()">
+        <option value="w-nil">None</option>
+        <option value="wrap">Wrap</option>
+        <option value="wrap-rev">Wrap Reverse</option>
+    </select><br>
+    <a href="./sample.html">Click here for Without Interaction</a><br>
+    <div id="container">
+        <div class="divs" id="div1">1</div>
+        <div class="divs" id="div2">2</div>
+        <div class="divs" id="div3">3</div>
+        <div class="divs" id="div1">4</div>
+        <div class="divs" id="div2">5</div>
+        <div class="divs" id="div3">6</div>
+        <div class="divs" id="div1">7</div>
+        <div class="divs" id="div2">8</div>
+        <div class="divs" id="div3">9</div>
+        <div class="divs" id="div1">10</div>
+        <div class="divs" id="div2">11</div>
+        <div class="divs" id="div3">12</div>
+        <div class="divs" id="div1">13</div>
+        <div class="divs" id="div2">14</div>
+        <div class="divs" id="div3">15</div>
+    </div>
+
+    <script src="./scripts.js">
+    </script>
+</body>
+</html>
